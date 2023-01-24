@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faSkullCrossbones } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-warning-alert',
@@ -7,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WarningAlertComponent implements OnInit {
 
+  faWarning = faSkullCrossbones;
   constructor() { }
 
   ngOnInit(): void {
